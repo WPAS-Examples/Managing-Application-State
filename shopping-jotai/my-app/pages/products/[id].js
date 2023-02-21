@@ -33,7 +33,7 @@ export default function Product(props) {
 
   function addToCart(product){
 
-    setCartList(currentList => [...currentList, product])
+    setCartList([...cartList, product])
   }
 
 

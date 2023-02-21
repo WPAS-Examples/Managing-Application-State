@@ -9,7 +9,7 @@ export default function ComponentC(){
   return (
     <>
       Component C<br />
-      <button onClick={e => setCount(n => n + 1) }>Increase Value</button>
+      <button onClick={e => setCount(count + 1) }>Increase Value</button>
     </>
   );
 }
