@@ -1,6 +1,7 @@
 import { useAtom } from "jotai";
 import Link from "next/link";
-import { cartListAtom } from "../store";
+import { cartListAtom } from "@/store";
+
 export default function ProductBox(props) {
   const { product } = props;
 

@@ -1,6 +1,6 @@
-import '../styles/globals.css'
-import Layout from '../components/Layout';
-import { cartListAtom } from '../store';
+import '@/styles/globals.css'
+import Layout from '@/components/Layout';
+import { cartListAtom } from '@/store';
 
 export async function getStaticProps(context) {
 
@@ -10,8 +10,7 @@ export async function getStaticProps(context) {
   return { props: { staticProduct: data } }
 }
 
-
-function MyApp({ Component, pageProps }) {
+export default function App({ Component, pageProps }) {
 
   return (
     <>
@@ -21,5 +20,3 @@ function MyApp({ Component, pageProps }) {
     </>
   )
 }
-
-export default MyApp

@@ -1,4 +1,4 @@
-import ProductBox from "../../components/productBox";
+import ProductBox from "@/components/ProductBox";
 
 export async function getStaticProps() {
   const res = await fetch('https://dummyjson.com/products');

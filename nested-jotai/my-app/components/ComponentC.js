@@ -1,5 +1,5 @@
 import { useAtom } from 'jotai';
-import { countAtom } from '../store';
+import { countAtom } from '@/store';
 
 export default function ComponentC(){
   console.log("Rendering Component C");

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { useAtom } from 'jotai';
-import { cartListAtom } from '../store';
+import { cartListAtom } from '@/store';
 
 export default function Layout(props) {
 
