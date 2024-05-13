@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { SetCountContext } from "../pages/_app";
+import { SetCountContext } from "@/pages/_app";
 
 export default function ComponentC(){
   console.log("Rendering Component C");
