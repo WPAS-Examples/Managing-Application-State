@@ -1,5 +1,5 @@
-import Component1 from "../components/Component1";
-import ComponentA from "../components/ComponentA";
+import Component1 from "@/components/Component1";
+import ComponentA from "@/components/ComponentA";
 
 
 export default function Home() {
