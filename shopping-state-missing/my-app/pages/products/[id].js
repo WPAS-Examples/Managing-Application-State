@@ -5,7 +5,7 @@ export async function getStaticPaths() {
   let pathList = [];
 
   // pre-render and support product/1 through product/30 only
-  for (let i = 0; i < 30; i++) {
+  for (let i = 1; i <= 30; i++) {
     pathList.push({ params: { id: i.toString() } })
   }
 
