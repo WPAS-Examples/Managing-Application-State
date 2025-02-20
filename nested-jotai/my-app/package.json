@@ -9,13 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "jotai": "^2.8.0",
-    "next": "14.2.3",
-    "react": "^18",
-    "react-dom": "^18"
+    "jotai": "^2.12.1",
+    "next": "15.1.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "eslint": "^8",
-    "eslint-config-next": "14.2.3"
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.7"
   }
 }
